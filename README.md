@@ -65,7 +65,7 @@ Category: Technologies <br>
 Elements: 5 <br>
 
 # Завдання 2 
-HTML містить порожній список ul#ingredients.
+HTML містить порожній список `ul#ingredients`.
 
 ```
 <ul id="ingredients"></ul>
