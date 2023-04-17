@@ -220,7 +220,7 @@ function getRandomHexColor() {
 Напиши скрипт створення і очищення колекції елементів. Користувач вводить кількість елементів в `input` і натискає кнопку Створити, після чого рендериться колекція. Натисненням на кнопку Очистити, колекція елементів очищається.
 ```
 <div id="controls">
-  <input type="number" min="1" max="100" step="1" />
+  <input type="number" min="1" max="100" step="1">
   <button type="button" data-create>Create</button>
   <button type="button" data-destroy>Destroy</button>
 </div>
