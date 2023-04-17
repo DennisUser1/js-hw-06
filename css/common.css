@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+  
+/* 
+Системні шрифти, які використовуються в Medium and WordPress
+-apple-system: для iSO Safari, MacOS Safari, MacOS Firefox;
+BlinkMacSystemFont: для MacOS Chrome;
+Segoe UI: для Windows;
+Oxygen: GNU + LINUX operating system;
+Cantarell: GNOME operating system;
+*/
+
+
+body {
+    margin: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fafafa;
+    color: #212121;
+    line-height: 1.5;
+}
+
+input {
+    padding: 8px;
+    font: inherit;
+}
+  
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+/* task-03  */
+
+.gallery {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery li {
+    flex-basis: calc((100% - 20px * 2) / 3);
+}
+
+/* .gallery img {
+    width: 360px;
+} */
+
+/* task-03  */
